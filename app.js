@@ -169,3 +169,177 @@
 
 
 
+// lesson 3
+
+
+// while for for of for in
+
+
+// while
+
+// console.log(0);
+// console.log(1);
+
+// let i = 0;
+// while(i <= 5){
+//     console.log(i);
+//     i+=2;
+// }
+
+// let i = 5;
+// while(i >= 0){
+//     console.log(i);
+//     i-=1;
+// }
+
+
+// for
+
+// for(let i = 0; i <= 10; i+=2){
+//     console.log(i);
+// }
+
+// const students = ["Ivan", "Petro", "Marcel", "John", "Marcko"];
+
+// console.log(students[0]);
+// console.log(students[1]);
+// console.log(students[2]);
+
+// for(let i = 0; i < students.length; i+=2){
+//     console.log(students[i]);
+// }
+
+// for of
+
+// for(let element of students){
+//     console.log(element);
+// }
+
+// for in
+
+// for(let i in students){
+//     console.log(students[i]);
+// }
+
+// break, continue
+
+// const students = ["Ivan", "Petro", "Marcel", "John", "Marcko"];
+
+// for(let i = 0; i < students.length; i+=1){
+//     console.log(students[i]);
+//     if(students[i] === "Marcel"){
+//         break;
+//     }
+// }
+
+// for(let i = 0; i < students.length; i+=1){
+//     if(students[i] === "Marcel"){
+//         continue;
+//     }
+//     console.log(students[i]);
+// }
+
+
+
+// functions
+
+// function sayHello(){
+//     console.log("hello");
+// }
+
+// function sayHello(message){
+//     console.log(message);
+// }
+
+// function sayHello(message){
+//     // console.log(message);
+//     return message;
+// }
+
+// let result = sayHello("hello hello");
+// console.log(result);
+
+// console.log(sayHello("hi guys"));
+
+// function sum(a,b){
+//     // console.log(a + b);
+//     return a + b;
+// }
+
+// console.log(sum(10,20));
+
+// arguments
+
+
+// function func(){
+//     // console.log(arguments);
+//     for(let i = 0; i < arguments.length; i++){
+//         console.log(arguments[i]);
+//     }
+// }
+
+// func("ivan", "petro", "vasyl");
+
+
+// function sum(){
+//     // console.log(arguments);
+//     let result = 0;
+//     for(let i = 0; i < arguments.length; i++){
+//         // console.log(arguments[i]);
+//         result += arguments[i];
+//     }
+//     console.log(result);
+// }
+
+// sum(10,20,345,6,5,7,84,34);
+
+
+// два види функцій
+
+// 1 function expression
+// let sum = function(){
+//     // console.log();
+//     // ...
+// }
+
+// 2 function declaration
+
+// function sum(){
+//     // ....
+// }
+
+
+// hello();
+
+
+// function hello(){
+//     console.log("hello");
+// }
+
+// hello();
+
+
+// let hello = function(){
+//     console.log("hello");
+// }
+
+// колекція set
+
+// 3 доманє завдання 
+//  у чаті homeworks
+// здавати потрібно github репозиторій
+
+// папка homework3
+// index.html
+// app.js
+
+// task1
+
+// ...
+
+// task 2
+
+// ...
+
+
+
