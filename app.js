@@ -343,3 +343,55 @@
 
 
 
+// const arr = [1,2,3,];
+
+// const newArr = [...arr];
+
+//  querySelector(""),  querySelectorAll("")
+
+// classList.add();
+// let message = 'First paragraph'
+// document.body.innerHTML = `<main class="mainClass check item">         
+//                 <div id="myDiv">
+//                     <p>${message}</p>           
+//                 </div>
+//         </main> `
+
+// let regexp = new RegExp(//);
+
+// let regexp = //;
+
+// let regexp = //;
+
+// console.log(/[a][^a]/.test("aa"));
+
+// console.log("sfsfsf 235.8549887676".match(/\d{3}\.\d{3}/));
+
+// const title = document.querySelector(".title");
+
+// title.addEventListener("click",function(){
+//     console.log("click work");
+// })
+
+
+// $(function(){
+
+// let title = $(".title");
+// title.on("click", function(){
+//     console.log("click work");
+// })
+
+// $.ajax({
+//     url: "https://jsonplaceholder.typicode.com/photos",
+//     dataType: "json",
+//     success: function(photos){
+//         console.log(photos[2].title);
+//         // $.each(photos, function(i, photo){
+//         //     console.log(photo.title);
+//         // })
+//     }
+// })
+
+
+// })
+
