@@ -1,0 +1,22 @@
+{
+  "name": "ua-1039.js-fundamentals",
+  "version": "2",
+  "description": "my description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovanolo/UA-1039.JS-Fundamentals.git"
+  },
+  "author": "Volodymyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vovanolo/UA-1039.JS-Fundamentals/issues"
+  },
+  "homepage": "https://github.com/vovanolo/UA-1039.JS-Fundamentals#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

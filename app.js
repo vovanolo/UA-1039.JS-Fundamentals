@@ -4,7 +4,6 @@
 // console.log("hello world");
 // console.log("hello world");
 
-
 // змінні
 
 // let var const
@@ -52,7 +51,6 @@
 // let ok = confirm("Are you okay?");
 // alert("the user is ok? - " + ok);
 
-
 // lesson 2
 
 // let i = 1;
@@ -86,7 +84,6 @@
 
 // const students = ["Ivan", "Petro", "Marcel"];
 
-
 // console.log(students);
 // console.log(students[2]);
 
@@ -99,12 +96,9 @@
 // students[6] = "Max";
 // console.log(students);
 
-
 // console.log(students.length);
 
-
 // const students = ["Ivan", "Petro", "Marcel"];
-
 
 // students.push("John");
 // students.pop();
@@ -145,11 +139,11 @@
 //         onsole.log("age is between 18 and 25");
 //         break;
 //     case age > 25 && age < 35:
-//         console.log("age is between 25 and 35"); 
-//         break;   
+//         console.log("age is between 25 and 35");
+//         break;
 //     case age > 35 && age < 45:
 //         console.log("age is between 35 and 45");
-//         break;  
+//         break;
 //     default:
 //         console.log("you are not 18 and not 25");
 // }
@@ -159,21 +153,16 @@
 //         console.log("you are 18");
 //         break;
 //     case 25:
-//         console.log("you are 25"); 
-//         break;   
+//         console.log("you are 25");
+//         break;
 //     default:
 //         console.log("you are not 18 and not 25");
 
-
 // }
-
-
 
 // lesson 3
 
-
 // while for for of for in
-
 
 // while
 
@@ -191,7 +180,6 @@
 //     console.log(i);
 //     i-=1;
 // }
-
 
 // for
 
@@ -239,8 +227,6 @@
 //     console.log(students[i]);
 // }
 
-
-
 // functions
 
 // function sayHello(){
@@ -270,7 +256,6 @@
 
 // arguments
 
-
 // function func(){
 //     // console.log(arguments);
 //     for(let i = 0; i < arguments.length; i++){
@@ -279,7 +264,6 @@
 // }
 
 // func("ivan", "petro", "vasyl");
-
 
 // function sum(){
 //     // console.log(arguments);
@@ -292,7 +276,6 @@
 // }
 
 // sum(10,20,345,6,5,7,84,34);
-
 
 // два види функцій
 
@@ -308,9 +291,7 @@
 //     // ....
 // }
 
-
 // hello();
-
 
 // function hello(){
 //     console.log("hello");
@@ -318,14 +299,13 @@
 
 // hello();
 
-
 // let hello = function(){
 //     console.log("hello");
 // }
 
 // колекція set
 
-// 3 доманє завдання 
+// 3 доманє завдання
 //  у чаті homeworks
 // здавати потрібно github репозиторій
 
@@ -341,8 +321,6 @@
 
 // ...
 
-
-
 // const arr = [1,2,3,];
 
 // const newArr = [...arr];
@@ -351,9 +329,9 @@
 
 // classList.add();
 // let message = 'First paragraph'
-// document.body.innerHTML = `<main class="mainClass check item">         
+// document.body.innerHTML = `<main class="mainClass check item">
 //                 <div id="myDiv">
-//                     <p>${message}</p>           
+//                     <p>${message}</p>
 //                 </div>
 //         </main> `
 
@@ -373,7 +351,6 @@
 //     console.log("click work");
 // })
 
-
 // $(function(){
 
 // let title = $(".title");
@@ -392,6 +369,183 @@
 //     }
 // })
 
-
 // })
 
+// let hello = function(){
+//     console.log("hello");
+// }
+
+// let hello = () => {
+//     console.log("hello");
+// }
+
+// let hello = function(a,b){
+//     console.log(a);
+// }
+
+// let hello = (a,b) => {
+//     console.log(a);
+// }
+
+// let sum = function(a,b){
+//     return a + b;
+// }
+
+// let sum = (a,b) => a + b;
+// let sum = (a,b) => {
+//     if(a > 0){
+//         return a + b;
+//     }
+// };
+
+// setTimeout(function(){
+//     console.log("hello");
+// },2000);
+
+// setTimeout(() => {
+//     console.log("hello");
+// },2000);
+
+// function func(a,b = 1){
+// console.log(a,b);
+// }
+
+// func(2,3);
+
+// const checkboxes = document.querySelectorAll("input");
+// console.log(checkboxes);
+// const newCkeckboxes = [...checkboxes];
+
+// checkboxes.addEventListener("click", function(){
+//     // console.log(checkboxes.checked);
+// });
+
+// checkboxes.forEach(element => {
+//     element.addEventListener("click",function(){
+//         const checkedCheckboxes = document.querySelectorAll("input:checked");
+//         if(checkedCheckboxes.length === 3){
+//             checkboxes.forEach(element =>{
+//                 element.disabled = true;
+//             })
+//         }
+//     });
+// })
+
+// console.log(checkboxes);
+
+// console.log("1");
+
+// setTimeout(() => {console.log("2")});
+// console.log("3");
+
+// function hello(){
+//     return "hello";
+// }
+
+// console.log(hello());
+
+// function hello(){
+//     return new Promise((resolve, reject) => {
+//         resolve("hello");
+//     })
+// }
+// console.log(hello());
+// hello().then((result) => {
+//     console.log(result);
+// })
+
+// function sum(a,b){
+//     return new Promise((resolve, reject) => {
+//         if(a > 0){
+//             resolve(a + b);
+//         }else {
+//             reject("wrong first value");
+//         }
+//     })
+// }
+
+// sum(-5,6).then((result) => {
+//     console.log(result);
+// }).catch((error) => {
+//     console.log(error);
+// })
+
+// sum(-5,6).then((result) => {
+//     console.log(result);
+// }, error => {
+//     console.log(error);
+// });
+
+// function sum(a,b){
+//     return new Promise((resolve, reject) => {
+//         if(a > 0){
+//             resolve(a + b);
+//         }else {
+//             reject("wrong first value");
+//         }
+//     })
+// }
+
+// sum(-5,6).then((result) => {
+//     // console.log(result);
+//     return result + 10;
+// }).then((result) => {
+//     // console.log(result);
+//     // return result + 10;
+//     return sum(10,40);
+// }).then((result) => {
+//     console.log(result);
+// }).catch((error) => {
+//     console.log(error);
+//     return sum(20, 100);
+// }).then((result) => {
+//     console.log(result);
+// })
+
+// async function hello(){
+//     return "hello";
+// }
+
+// // console.log(hello());
+// hello().then((result) => {
+//     console.log(result);
+// })
+
+// const doSomethingAsync = () => {
+//   return new Promise((resolve) => {
+//     setTimeout(() => resolve("I did something"), 2000);
+//   });
+// };
+
+// const doSomething = async () => {
+//   console.log(await doSomethingAsync());
+// };
+
+// console.log("Before");
+// doSomething();
+// console.log("After");
+
+
+// console.log("hi guys all");
+
+// alert("hello");
+
+// const fs = require("fs");
+
+
+// fs.readFile("./text.txt", function(err, data){
+//   console.log(data.toString());
+// })
+
+const http = require("http");
+const { hello } = require("./new.js");
+
+console.log(hello);
+
+// http.createServer(function(request, response){
+//     response.writeHead(200, {"Content-Type": "text/html"});
+//     response.write("<h1>hello hello hello</h1>");
+//     response.end();
+// }).listen(8000);
+
+// console.log("Server is listening on port http://localhost:8000");
